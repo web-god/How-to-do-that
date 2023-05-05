@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.input-text{
+  @apply font-poppins tracking-wider bg-transparent focus:outline-none border border-r-0 border-t-0 border-l-0 hover:border-b-teal-300 text-teal-400 hover:placeholder:text-teal-700
+  
+}
+
+
+
